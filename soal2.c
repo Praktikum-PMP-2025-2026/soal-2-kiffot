@@ -66,7 +66,7 @@ int main() {
         }
 
     }
-    for (int k = 0; k<n; k++){
+    for (int k = 0; naskah[k] != '\0'; k++){
         printf("%c", naskah[k]);
     }
 }
